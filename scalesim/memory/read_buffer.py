@@ -244,6 +244,7 @@ class read_buffer:
             out_cycles_arr.append(out_cycles)
 
         out_cycles_arr_np = np.asarray(out_cycles_arr).reshape((len(out_cycles_arr), 1))
+        print("aaaaaaaaaaaaaaaaaaa")
 
         return out_cycles_arr_np
 
